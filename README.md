@@ -159,6 +159,16 @@ Then you can run the executable like this:
 
 ![Custom Shaders](./rmassets/shaders.jpg)
 
+#### Projects that use my engine
+
+##### Brain volume rendering and segmentation
+
+Part of my bachelor thesis. You can find the link bellow.
+
+[Thesis](https://github.com/TRBogdann/Licenta)
+
+![Volume Rendering](./rmassets/slicer.jpg)
+
 ## Free and open-source
 
 You can modify the code and use it in your own programs however you like. You can even use it as a starting point for your own Game Engine.
