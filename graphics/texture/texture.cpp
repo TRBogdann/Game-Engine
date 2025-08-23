@@ -6,16 +6,16 @@
 
 Texture::Texture(const std::string filename, bool keepLocalData,
                  bool useOpacity)
-: rendererId(0),
-filePath(filename),
-pixelBuffer(nullptr),
-width(0),
-height(0),
-density(0),
-opacity(useOpacity) {
+    : rendererId(0),
+      filePath(filename),
+      pixelBuffer(nullptr),
+      width(0),
+      height(0),
+      density(0),
+      opacity(useOpacity) {
 
     unsigned char *pixels =
-    stbi_load(filePath.c_str(), &width, &height, &density, 4);
+        stbi_load(filePath.c_str(), &width, &height, &density, 4);
 
     glGenTextures(1, &rendererId);
     glBindTexture(GL_TEXTURE_2D, rendererId);
