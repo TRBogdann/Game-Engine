@@ -1,3 +1,0 @@
-/home/X/Documents/ProjLicenta/GameEngine/exemples/window/build/CMakeFiles/program.dir
-/home/X/Documents/ProjLicenta/GameEngine/exemples/window/build/CMakeFiles/edit_cache.dir
-/home/X/Documents/ProjLicenta/GameEngine/exemples/window/build/CMakeFiles/rebuild_cache.dir

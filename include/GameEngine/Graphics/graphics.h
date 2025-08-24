@@ -10,3 +10,4 @@
 #include <GameEngine/Graphics/texture.h>
 #include <GameEngine/Graphics/transformations.h>
 #include <GameEngine/Graphics/window.h>
+#include <GameEngine/Graphics/blender.h>

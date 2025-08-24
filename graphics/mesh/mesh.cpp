@@ -1,5 +1,6 @@
 #include "mesh.h"
 #include "../buffers/buffers.h"
+#include "../blender/blender.h"
 #include <algorithm>
 #include <cassert>
 #include <cstdlib>
@@ -10,6 +11,11 @@
 Actor::Actor(glm::vec3 position, glm::vec3 scale)
     : position(position),
       scale(scale) {}
+
+Actor::Actor():position({0.0,0.0,0.0}),scale({0.0,0.0,0.0})
+{
+    
+}
 
 Actor::~Actor() {}
 
@@ -96,8 +102,13 @@ Mesh *Mesh::loadMesh(std::string filePath, unsigned char file_format,
             }
             i++;
         }
+        break;
     }
+
+    case WAVEFRONT_FILE_FORMAT:
+        return Blender::loadWavefront(filePath,globalShader,keepData);
     }
+    
     if (!data) {
         return nullptr;
     }

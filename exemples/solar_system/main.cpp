@@ -16,6 +16,7 @@ int main(void) {
         return 1;
 
     program.setCursorMode(DISABLED_RAW);
+    program.setMultisampling(4);
     window.setColor(200, 255, 255, 255);
 
     float fov = 45.0f;

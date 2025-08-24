@@ -2,6 +2,11 @@
 
 Graphical libraries made from scratch using only C++ and OpenGL.It can be used to render both 3D and 2D objects, build UI'S and load shaders for more advanced visual effects. The framework it's still very bare bones, and more complex tasks may still need some extra coding lines. But i still make adjustments to make the framework better. The current framework was also used for brain MRI rendering in my Bachelor Thesis.
 
+## What's new?
+
+- Added support for .obj files
+- Added StringTokenizer
+
 ## Tumor Slicing
 
 | ![A](./rmassets/brain1.jpg) | ![B](./rmassets/brain2.jpg) |
@@ -158,6 +163,18 @@ Then you can run the executable like this:
 - Rendering without a camera
 
 ![Custom Shaders](./rmassets/shaders.jpg)
+
+#### exemples/light
+
+- Rendering .obj
+- Creating ambient light
+- Creating diffusal light
+- Creating specular light
+- Phong reflection model (ambient + diffusal + specular)
+
+![Light front](./rmassets/light2.jpg)
+![Light side](./rmassets/light1.jpg)
+![Light behind](./rmassets/light3.jpg)
 
 #### Projects that use my engine
 

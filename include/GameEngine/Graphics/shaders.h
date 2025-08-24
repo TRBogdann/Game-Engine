@@ -42,4 +42,5 @@ class Shader {
         void setUniform4f(std::string name, float r, float g, float b, float a);
         void setUniform1i(std::string name, int slot);
         void setUniform1f(std::string name, float slot);
+        void setUniform3f(std::string name, float x, float y, float z);
 };

@@ -2,12 +2,12 @@
 #include "../macros.h"
 #include <string>
 
-/*
-clasa atribut
-id
-nr elemente
-marime data
-*/
+
+
+class GraphicalAtribute;
+namespace Blender {
+    GraphicalAtribute* createAtributes();
+}
 
 class GraphicalAtribute {
     private:
@@ -28,6 +28,7 @@ class GraphicalAtribute {
         static AtributeCreator *creator;
 
     public:
+        friend GraphicalAtribute* Blender::createAtributes();
         GraphicalAtribute(unsigned int size, std::string name);
         ~GraphicalAtribute();
         std::string getName();

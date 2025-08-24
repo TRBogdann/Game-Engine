@@ -42,6 +42,7 @@ void Program::useWindow(Window &window, bool useDepthFuntion) {
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         glEnable(GL_DEPTH_TEST);
         glDepthFunc(GL_LESS);
+        
     }
     glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
 }
@@ -103,4 +104,10 @@ void Program::setCursorMode(Cursor_Mode mode) {
                          GLFW_TRUE);
         Program_Settings::cursor_mode = DISABLED_RAW;
     }
+}
+
+void Program::setMultisampling(int sampleCount)
+{
+    glfwWindowHint(GLFW_SAMPLES, sampleCount);
+    glEnable(GL_MULTISAMPLE);
 }

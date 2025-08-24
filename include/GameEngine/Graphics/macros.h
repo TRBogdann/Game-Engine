@@ -16,6 +16,7 @@
 
 #define FILE_FORMAT unsigned char
 #define ENGINE_SIMPLE_FILE_FORMAT 0
+#define WAVEFRONT_FILE_FORMAT 1
 
 #define SHAPE_NAME unsigned char
 #define SHAPE_TRIANGLE 0

@@ -11,6 +11,7 @@ class Program {
         void terminate();
         bool CheckForError();
         void setCursorMode(Cursor_Mode mode);
+        void setMultisampling(int sampleCount);
 
     private:
         Window *_window;

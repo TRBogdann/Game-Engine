@@ -6,6 +6,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
+#include <string>
 
 unsigned int Shader::compileShader(const std::string &source,
                                    unsigned int type) {
@@ -76,6 +77,11 @@ void Shader::unbind() { glUseProgram(0); }
 void Shader::setUniform4f(std::string name, float r, float g, float b,
                           float a) {
     glUniform4f((findUniform(name)), r, g, b, a);
+}
+
+void Shader::setUniform3f(std::string name,float x, float y, float z)
+{
+    glUniform3f((findUniform(name)), x, y, z);
 }
 
 void Shader::setUniform1f(std::string name, float slot) {

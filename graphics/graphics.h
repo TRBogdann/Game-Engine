@@ -10,3 +10,4 @@
 #include "texture/texture.h"
 #include "transformations/transformations.h"
 #include "window/window.h"
+#include "blender/blender.h"

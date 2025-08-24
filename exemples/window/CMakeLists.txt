@@ -8,6 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Add program_main.cpp and all other source files
 set(SOURCES
     main.cpp
+    ../../exceptions/exceptions.cpp
+    ../../string-utils/string_utils.cpp
     ../../files/files.cpp
     ../../graphics/buffers/buffers.cpp
     ../../graphics/shaders/shaders.cpp
@@ -21,6 +23,7 @@ set(SOURCES
     ../../graphics/surface/surface.cpp
     ../../cpu-math/math.cpp
     ../../graphics/model/model.cpp
+    ../../graphics/blender/blender.cpp
 )
 
 # Create the executable

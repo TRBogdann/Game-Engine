@@ -45,7 +45,9 @@ int main(void) {
     ShapeRegistry *shapeRegistry = ShapeRegistry::getInstance();
     Mesh *textured_cube =
         shapeRegistry->getShape(SHAPE_CUBE, SHADER_TEXTURE, MVP_SHADER);
-    Actor house[8] = {
+    
+    std::cout<<textured_cube->getVertexCount();
+        Actor house[8] = {
         Actor({-50.0f, 100.0f, 600.0f}, {280.0f, 200.0f, 20.0f}),
         Actor({100.0f, 100.0f, 500.0f}, {20.0f, 200.0f, 220.0f}),
         Actor({-200.0f, 100.0f, 500.0f}, {20.0f, 200.0f, 220.0f}),
