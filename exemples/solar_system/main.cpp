@@ -16,7 +16,7 @@ int main(void) {
         return 1;
 
     program.setCursorMode(DISABLED_RAW);
-    program.setMultisampling(4);
+    program.setMultisampling(8);
     window.setColor(200, 255, 255, 255);
 
     float fov = 45.0f;
@@ -37,8 +37,9 @@ int main(void) {
 
     newShader.bind();
 
+    //Adjust resolution here
     Mesh *canvas =
-        Surface::generateFlatSurface(800, 800, &newShader, SHADER_COLOR, true);
+        Surface::generateFlatSurface(1500, 1500, &newShader, SHADER_COLOR, true);
     Model::rotate(canvas, 7, {1.0f, 0.0f, 0.0f}, 90.0f);
     // Actor temp({0.0f, -10.0f, 50.0f}, {500.0f, 500.0f, 500.0f});
 
