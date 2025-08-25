@@ -182,7 +182,7 @@ Added:
 
 - Normal Matrix in shader to account for the rotations
 
-It's a continuation of the previous exemples and it's a real time light simulation.
+It's a real time light simulation and it's a continuation of the previous exemple.
 It offers a GUI that let's you adjust the ambient light, reflections, light source position and light color in real time and helps you understand how light works in the real world.
 
 | ![A](./rmassets/utah1.jpg) | ![B](./rmassets/utah2.jpg) |
