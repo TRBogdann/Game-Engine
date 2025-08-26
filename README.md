@@ -173,8 +173,9 @@ Then you can run the executable like this:
 - Phong reflection model (ambient + diffusal + specular)
 
 ![Light front](./rmassets/light2.jpg)
-![Light side](./rmassets/light1.jpg)
-![Light behind](./rmassets/light3.jpg)
+
+| ![A](./rmassets/light1.jpg) | ![B](./rmassets/light3.jpg) |
+|---|---|
 
 #### exemples/utah
 
@@ -182,7 +183,7 @@ Added:
 
 - Normal Matrix in shader to account for the rotations
 
-It's a continuation of the previous exemples and it's a real time light simulation.
+It's a real time light simulation and it's a continuation of the previous exemple.
 It offers a GUI that let's you adjust the ambient light, reflections, light source position and light color in real time and helps you understand how light works in the real world.
 
 | ![A](./rmassets/utah1.jpg) | ![B](./rmassets/utah2.jpg) |
