@@ -1,9 +1,9 @@
-#include "../../graphics/buffers/buffers.h"
-#include "../../graphics/camera/camera.h"
-#include "../../graphics/program/program.h"
-#include "../../graphics/renderer/renderer.h"
-#include "../../graphics/shaders/shaders.h"
-#include "../../graphics/transformations/transformations.h"
+#include "../../src/graphics/buffers/buffers.h"
+#include "../../src/graphics/camera/camera.h"
+#include "../../src/graphics/program/program.h"
+#include "../../src/graphics/renderer/renderer.h"
+#include "../../src/graphics/shaders/shaders.h"
+#include "../../src/graphics/transformations/transformations.h"
 #include <glm/ext/matrix_transform.hpp>
 #include <iostream>
 

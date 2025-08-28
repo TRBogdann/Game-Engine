@@ -1,6 +1,6 @@
-#include "../../files/files.h"
-#include "../../graphics/graphics.h"
-#include "../../string-utils/string_utils.h"
+#include "../../src/files/files.h"
+#include "../../src/graphics/graphics.h"
+#include "../../src/string-utils/string_utils.h"
 #include "./light-source/light_source.h"
 #include <fstream>
 

@@ -1,5 +1,5 @@
 #include "light_source.h"
-#include "../../../graphics/blender/blender.h"
+#include "../../../src/graphics/blender/blender.h"
 
 float LightSource::ambient = 0.5;
 float LightSource::specularStrength = 0.5;

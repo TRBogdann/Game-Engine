@@ -2,9 +2,9 @@
 #include <imgui.h>
 #include <imgui_impl_glfw.h>
 #include <imgui_impl_opengl3.h>
-#include "../../../graphics/shaders/shaders.h"
-#include "../../../graphics/window/window.h"
-#include "../../../graphics/camera/camera.h"
+#include "../../../src/graphics/shaders/shaders.h"
+#include "../../../src/graphics/window/window.h"
+#include "../../../src/graphics/camera/camera.h"
 
 class Toolbar
 {

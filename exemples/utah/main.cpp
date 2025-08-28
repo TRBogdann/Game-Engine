@@ -1,7 +1,7 @@
-#include "../../files/files.h"
+#include "../../src/files/files.h"
 #include "tools/tools.h"
 #include "event_handler/handler.h"
-#include "../../graphics/graphics.h"
+#include "../../src/graphics/graphics.h"
 
 
 

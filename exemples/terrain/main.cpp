@@ -1,4 +1,4 @@
-#include "../../graphics/graphics.h"
+#include "../../src/graphics/graphics.h"
 
 #include <GLFW/glfw3.h>
 #include <glm/ext/vector_float3.hpp>

@@ -1,8 +1,8 @@
 
 #include <glm/ext/vector_float3.hpp>
-#include "../../../graphics/shaders/shaders.h"
-#include "../../../graphics/mesh/mesh.h"
-#include "../../../graphics/renderer/renderer.h"
+#include "../../../src/graphics/shaders/shaders.h"
+#include "../../../src/graphics/mesh/mesh.h"
+#include "../../../src/graphics/renderer/renderer.h"
 #include <string>
 
 class LightSource

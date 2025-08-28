@@ -1,4 +1,4 @@
-#include "../../graphics/graphics.h"
+#include "../../src/graphics/graphics.h"
 
 int main(void) {
     Program program;

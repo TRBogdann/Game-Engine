@@ -8,22 +8,22 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Add program_main.cpp and all other source files
 set(SOURCES
     main.cpp
-    ../../files/files.cpp
-    ../../exceptions/exceptions.cpp
-    ../../string-utils/string_utils.cpp
-    ../../graphics/buffers/buffers.cpp
-    ../../graphics/shaders/shaders.cpp
-    ../../graphics/texture/texture.cpp
-    ../../graphics/camera/camera.cpp
-    ../../graphics/transformations/transformations.cpp
-    ../../graphics/mesh/mesh.cpp
-    ../../graphics/window/window.cpp
-    ../../graphics/program/program.cpp
-    ../../graphics/renderer/renderer.cpp
-    ../../graphics/surface/surface.cpp
-    ../../cpu-math/math.cpp
-    ../../graphics/model/model.cpp
-    ../../graphics/blender/blender.cpp
+    ../../src/exceptions/exceptions.cpp
+    ../../src/string-utils/string_utils.cpp
+    ../../src/files/files.cpp
+    ../../src/graphics/buffers/buffers.cpp
+    ../../src/graphics/shaders/shaders.cpp
+    ../../src/graphics/texture/texture.cpp
+    ../../src/graphics/camera/camera.cpp
+    ../../src/graphics/transformations/transformations.cpp
+    ../../src/graphics/mesh/mesh.cpp
+    ../../src/graphics/window/window.cpp
+    ../../src/graphics/program/program.cpp
+    ../../src/graphics/renderer/renderer.cpp
+    ../../src/graphics/surface/surface.cpp
+    ../../src/cpu-math/math.cpp
+    ../../src/graphics/model/model.cpp
+    ../../src/graphics/blender/blender.cpp
     ./light-source/light_source.cpp
 )
 
